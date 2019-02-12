@@ -17,8 +17,10 @@
         }
     },
     "extra": {
-        "laravel": [
-            "Cosyphp\\Weather\\ServiceProvider"
-        ]
+        "laravel": {
+            "providers": [
+                "Cosyphp\\Weather\\ServiceProvider"
+            ]
+        }
     }
 }
