@@ -8,7 +8,9 @@
 
 namespace Cosyphp\Weather;
 
-class WeatherServiceProvider extends \Illuminate\Support\ServiceProvider
+use Illuminate\Support\ServiceProvider;
+
+class WeatherServiceProvider extends ServiceProvider
 {
     protected $defer = true;
 

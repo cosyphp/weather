@@ -8,6 +8,6 @@ class Weather extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'Weather';
+        return 'weather';
     }
 }
