@@ -15,12 +15,5 @@
         "psr-4": {
             "Cosyphp\\Weather\\": "src"
         }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Cosyphp\\Weather\\ServiceProvider"
-            ]
-        }
     }
 }
